@@ -4,25 +4,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Styles for the body */
+.karla-<uniquifier> {
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+	font-family: "Karla", serif;
+	color: ##030102;
+	background-color: ##7F6C82;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #F2C6E9;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #7F6C82;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #BB1627;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +42,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: ##58A9C6;
 }
 
 .biography-details li, .skill-list li {
